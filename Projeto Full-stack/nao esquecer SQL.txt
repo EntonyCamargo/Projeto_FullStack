@@ -1,0 +1,14 @@
+SELECT - extrai dados de um banco de dados
+UPDATE - atualiza dados em um banco de dados
+DELETE - exclui dados de um banco de dados
+INSERT INTO - insere novos dados em um banco de dados
+
+
+
+
+
+
+CRIAR UM BANCO DE DADOS COM O NOME FULL-STACK
+
+CRIAR UMA TABELA COM O NOME CADASTRO
+

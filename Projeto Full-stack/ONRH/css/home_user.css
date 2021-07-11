@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Habibi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+body{
+  padding: 0px;
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header{
+  font-family: 'Habibi', serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #0A66C2;
+  color: #242424;
+  text-align: center;
+  font-size: 13px;
+}
+
+p{
+  font-family: 'Rosarivo', serif;
+  color: black;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+button {
+  width: 187px;
+  margin-left: 25px;
+  background: #0033D9D6;
+  border: none;
+  color: white;
+  padding: 11px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 5px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.main_box {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.main_box p{
+  text-align: inherit;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+#box{
+  background-color: #D9D9D9;
+  padding: 16px;
+}
+
+button:hover {
+  background-color: #002499;
+}
+
+p::after{
+  content: '';
+  width: 100%;
+  height: 7px;
+  background-color: #00A5D9;
+  display: block;
+  margin: 1px auto;
+}
+
+@media(max-width: 320px){
+  #header {
+    font-size: 10px;
+  }
+}
+
+@media(max-width: 450px){
+  button{
+    margin-bottom: 14px;
+  }
+}
+
+@media(max-width: 768px){
+  button{
+    margin-bottom: 14px;
+  }
+}
+
+@media(max-width: 1024px){
+  button{
+    margin-bottom: 14px;
+  }
+}
+
+@media(max-width: 1044px){
+  button{
+    margin-bottom: 30px;
+  }
+}
