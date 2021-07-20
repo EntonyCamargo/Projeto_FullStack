@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Habibi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo&display=swap');
 
 body{
+  background-color: #EDEDED;
   padding: 0px;
   margin: 0px;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #header{
@@ -16,3 +17,51 @@ body{
   text-align: center;
   font-size: 13px;
 }
+
+.container{
+  display: flex;
+  height: 100%;
+  width: 80%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+form{
+height: 10%;
+}
+
+input{
+  height: 35px;
+  font-family: 'Roboto Slab', serif;
+  background: #FFFFFF;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 1px solid #EDEDED;
+}
+
+.line_nome_sobrenome,.line_email_senha,.line_endereco_num,.line_celular_fixo,.line_cargo_codi{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.dados_pessoais,.dados_cadastro,.formas_contato,.dados_empresariais{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4%;
+  margin-left: 3%;
+}
+
+label{
+  font-family: 'Rosarivo', serif;
+}
+
+.footer{
+  padding: 20px;
+  margin-bottom:0px;
+  background-color: #0A66C2;
+}
+
+
+

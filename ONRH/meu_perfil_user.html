@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/folha_ponto_user.css">
+        <link rel="stylesheet" href="css/meu_perfil_user.css">
         <link rel="icon" href="img/favicon.png"/>
         <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +12,60 @@
             <h1>Minhas informaçoes</h1>
         </div>
 
-        
+        <div class="container">
+            <form>
+                <div class="dados_pessoais">
+                    <div id="label">
+                        <label for="Nome">Dados pessoais</label>
+                    </div>
+
+                    <div class="line_nome_sobrenome">
+                        <input type="text"  name="nome" disabled placeholder="Nome" id="nome">
+                        <input type="text"  name="sobrenome" disabled placeholder="Sobrenome" id="sobrenome">
+                    </div>
+                </div>
+                
+                <div class="dados_cadastro">
+                    <div id="label">
+                        <label for="Nome">Dados de cadastro</label>
+                    </div>
+                    
+                    <div class="line_email_senha">
+                        <input type="email"  name="email" disabled placeholder="Email" id="email">
+                        <input type="password"  name="senha" disabled placeholder="Senha" id="senha">
+                    </div>
+                </div>
+                
+                <div class="formas_contato">
+                    <div id="label">
+                        <label for="Nome">Formas de contato</label>
+                    </div>
+
+                    <div class="line_endereco_num">
+                        <input type="text"  name="endereco" disabled placeholder="Endereço" id="endereco">
+                        <input type="number" name="numero_casa" disabled placeholder="Nº" id="numero_casa">
+                    </div>
+
+                    <div class="line_celular_fixo">
+                        <input type="number" name="celular" disabled placeholder="celular" id="celular">
+                        <input type="number" name="fixo" disabled placeholder="fixo" id="fixo">
+                    </div>
+                    
+                </div>
+               
+                <div class="dados_empresariais">
+                    <div id="label">
+                        <label for="Nome">Dados empresariais </label>
+                    </div>
+
+                    <div class="line_cargo_codi">
+                        <input type="text"  name="contato" disabled placeholder="Contato" id="contato">
+                        <input type="number"  name="codigo" disabled placeholder="Meu codigo" id="codigo">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <footer class="footer"></footer>
     </body>
 </html>
