@@ -1,15 +1,15 @@
-function inscricao_curso(){
-    window.location.href=""
+function falta(){
+    window.location.href="atestado_user.html"
 }
 
-function inscricao_curso(){
-    window.location.href=""
+function pedido(){
+    window.location.href="pedido_user.html"
 }
 
-function Minhas_informaçoes(){
-    window.location.href="meu_perfil_user.html"
+function perfil(){
+    window.location.href="perfil_user.html"
 }
 
-function Folha_ponto(){
-    window.location.href="folha_ponto_user.html"
+function ponto(){
+    window.location.href="ponto_user.html"
 }
