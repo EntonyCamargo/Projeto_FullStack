@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/pedido.css">
+        <link rel="icon" href="../img/favicon.png"/>
+        <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pedido de Curso</title>
+    </head>
+
+    <body>
+        <div id=header>
+            <h1>ON Recursos Humanos</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="box_input">
+                <div class="title">
+                    <h1>Pedido de Cursos</h1>
+                </div>
+            </div>
+
+            <div class="box_input">
+                <div class="input_name">
+                    <div class="befor"></div>
+                    <input type="text" name="nome" id="nome" placeholder="Nome:" />
+                </div>    
+            </div>
+
+            <div class="box_input">
+                
+                <div class="input_cod">
+                    <div class="befor"></div>
+                    <input type="number" name="codigo" id="codigo" placeholder="Meu codigo:" />
+                </div>
+            </div>
+            
+            <div class="box_input">
+                <div class="input_cargo">
+                    <div class="befor"></div>
+                    <input type="text" name="cargo" id="cargo" placeholder="Cargo na empresa:" />
+                </div>
+            </div>
+
+            <div class="box_input">
+                <div class="input_email">
+                    <div class="befor"></div>
+                    <input type="email" name="email" id="email" placeholder="Email:" />
+                </div>
+            </div>
+
+            <div class="box_input">
+                <div class="input_curso">
+                    <div class="befor"></div>
+                   <select name="cursos" id="cursos">
+                       <option value="curso">Curso</option>
+                       <option value="adm">Administraçao</option>
+                       <option value="rh">Recursos Humanos</option>
+                       <option value="sec_tra">Segurança do trabalho</option>
+                       <option value="pri_sos">Primeiros Socorros</option>
+                   </select>
+                </div>
+            </div>
+
+            <div class="btt">
+                <button onclick="perfil();">Enviar</button>
+            </div>
+            
+        </div>
+
+        <footer class="footer"></footer>
+    </body>
+</html>
