@@ -1,5 +1,6 @@
 <html>
     <head>
+        <meta charset="utf-8"/>
         <link rel="stylesheet" href="../css/atestado_user.css">
         <link rel="icon" href="../img/favicon.png"/>
         <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
@@ -19,35 +20,37 @@
                     <h1>Meu Atestado</h1>
                 </div>
             </div>
-
-            <div class="box_input">
-                <div class="input_name">
-                    <div class="befor"></div>
-                    <input type="text" name="nome" id="nome" placeholder="Nome:" />
-                </div>    
-            </div>
-
-            <div class="box_input">
-                <div class="input_email">
-                    <div class="befor"></div>
-                    <input type="email" name="email" id="email" placeholder="Email:" />
+            <form action="">
+                <div class="box_input">
+                    <div class="input_name">
+                        <div class="befor"></div>
+                        <input type="text" name="nome" id="nome" placeholder="Nome:" />
+                    </div>    
                 </div>
-            </div>
-
-            <div class="box_input">
-                <div class="input_cod">
-                    <div class="befor"></div>
-                    <input type="number" name="codigo" id="codigo" placeholder="Meu codigo:" />
+    
+                <div class="box_input">
+                    <div class="input_email">
+                        <div class="befor"></div>
+                        <input type="email" name="email" id="email" placeholder="Email:" />
+                    </div>
                 </div>
-            </div>
-
-            <div class="box_input">
-                <div class="input_file">
-                    <div class="befor"></div>
-                    <label for="file">Enviar arquivo</label>
-                    <input type="file" name="file" id="file" placeholder="File" />
+    
+                <div class="box_input">
+                    <div class="input_cod">
+                        <div class="befor"></div>
+                        <input type="number" name="codigo" id="codigo" placeholder="Meu codigo:" />
+                    </div>
                 </div>
-            </div>
+    
+                <div class="box_input">
+                    <div class="input_file">
+                        <div class="befor"></div>
+                        <label for="file">Enviar arquivo</label>
+                        <input type="file" name="file" id="file" placeholder="File" />
+                    </div>
+                </div>
+            </form>
+            
 
             <div class="btt">
                 <button onclick="perfil();">Enviar</button>

@@ -18,6 +18,185 @@ body{
     text-align: center;
 }
 
+
+/******carrossel*******/
+
+
+
+.container_carro{
+    width: 90%;
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+
+#gran_img{
+    width: 100%;
+}
+
+
+
+.main_carro{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.n_text{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+    font-size: 10px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.i_text{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+    font-size: 25px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_box{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.active, .dot:hover{
+    background-color: #717171;
+}
+
+.wall{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade{
+    from{ opacity: 0.4; }
+    to{ opacity: 1; }
+}
+
+@-webkit-keyframes fade{
+    from{ opacity: 0.4; }
+    to{ opacity: 1; }
+}
+
+@media only screen and (max-width: 425px) {
+    .i_text {
+        font-size: 15px;
+    }
+
+    .n_text {
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .i_text {
+        font-size: 20px;
+    }
+
+    .n_text {
+        font-size: 20px;
+    }
+}
+
+/***************Informaçoes cursos****************/
+
+
+.container_curso {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.title_cursos h1 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rosarivo', serif;
+    font-size: 20px;
+}
+
+.main_curso{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+}
+
+#box_curso{
+    border-radius: 5px;
+    margin-left: 2%;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.info_curso{
+    padding: 5px 5px;
+}
+
+.info_curso h1{
+    font-size: 12px;
+}
+
+.info_curso p{
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#box_corso{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#curso{
+    width: 100%;
+}
+
+
+
+/********Cadastro curso**********/
+
+
+form{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
 .title h1{
     font-family: 'Rosarivo', serif;
     font-size: 20px;
@@ -28,10 +207,10 @@ body{
     display: flex;
     height: 100%;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
-.box_input,.btt{
+.box_input,.btt,.title_mais_feitos{
     display: flex;
     align-items: center;
     width: 100%;
@@ -97,6 +276,47 @@ button:hover{
 
     .input_email,.input_curso{
         width: 75%;
+    }
+
+    .main_curso {
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 16px;
+        flex-wrap: nowrap;
+        align-content: stretch;
+        justify-content: center;
+    }
+
+    #box_curso {
+        margin-bottom: 45px;
+        border-radius: 5px;
+        margin-left: 2%;
+        box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+    }
+
+    .container {
+        margin-bottom: 30px;
+        align-items: center;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .info_curso h1{
+        font-size: 18px;
+    }
+
+    .info_curso p{
+        font-size: 18px;
     }
 }
 
